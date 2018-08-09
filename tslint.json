@@ -1,0 +1,38 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "typedef": false,
+        "ordered-imports": false,
+        "member-access": false,
+        "arrow-parens": false,
+        "member-ordering": false,
+        "max-classes-per-file": false,
+        "interface-name": false,
+        "space-before-function-paren": [true, {
+            "anonymous": "always",
+            "named": "never",
+            "asyncArrow": "always"
+        }],
+        "object-literal-sort-keys": false,
+        "indent": false,
+        "no-duplicate-imports": false,
+        "quotemark": false,
+        "trailing-comma": true,
+        "no-var-requires": false,
+        "no-console": false,
+        "prefer-const": true,
+
+        "curly": true,
+        "variable-name": false,
+        "no-trailing-whitespace": false,
+        "no-angle-bracket-type-assertion": false,
+        "no-eval": false,
+        "no-consecutive-blank-lines": true,
+        "semicolon": true,
+        "whitespace": true,
+        "align": false,
+        "max-line-length": false,
+        "array-type": false,
+        "no-bitwise": false
+    }
+}
